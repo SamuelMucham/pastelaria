@@ -7,7 +7,7 @@ export default function Home() {
       <section className="hero">
         <div className="container hero-grid">
           <div>
-            <span className="eyebrow">Fritos na hora · Terça a domingo</span>
+            <span className="eyebrow">Fritos na hora</span>
             <h1 className="display">
               Pastel <em>quentinho</em>,<br />sabor de esquina
             </h1>
