@@ -23,7 +23,7 @@ export default function Contato() {
           <div>
             <h4>WhatsApp</h4>
             <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer">
-              (00) 00000-0000
+              (41) 99826-1509
             </a>
           </div>
         </div>
@@ -31,7 +31,7 @@ export default function Contato() {
           <span className="icon">🕒</span>
           <div>
             <h4>Horário</h4>
-            <p>Terça a domingo, 11h às 21h</p>
+            <p>Todos os dias menos nas Quartas</p>
           </div>
         </div>
 
@@ -47,12 +47,17 @@ export default function Contato() {
           <button type="submit" className="cta-button">Enviar Mensagem</button>
         </form>
       </div>
-
-      <div className="map-panel">
-        Mapa incorporado do Google Maps
-        <br />
-        (substitua por um &lt;iframe&gt; com o endereço real)
-      </div>
+<iframe
+  className="map-panel"
+  src="https://www.google.com/maps?cid=3287877817043217377&output=embed"
+  title="Localização da Pastel & Cana"
+  width="100%"
+  height="320"
+  style={{ border: 0 }}
+  loading="lazy"
+  allowFullScreen
+  referrerPolicy="no-referrer-when-downgrade"
+/>
     </section>
   );
 }

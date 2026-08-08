@@ -7,7 +7,6 @@ export default function Sobre() {
     <>
       <section className="about-hero">
         <div className="container">
-          <span className="eyebrow">Quem tá no balcão</span>
           <h1 className="display">Sobre a pastelaria</h1>
         </div>
       </section>
